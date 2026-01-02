@@ -11,11 +11,33 @@ target/
 *.iws
 *.iml
 *.ipr
-automation.log
-DashboardTest.java
-LoginTest.java
-DashboardPage.java
-LoginPage.java
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ===== Maven =====
+target/
+
+# ===== Logs =====
+*.log
+
+# ===== Test Reports =====
+test-output/
+reports/
+extent-reports/
+screenshots/
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Local / Secret configs (optional) =====
+*local*.properties
+*secret*.properties
+
 
 ### Eclipse ###
 .apt_generated

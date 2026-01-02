@@ -7,7 +7,8 @@ public class Log {
 
     private Log() {}
 
-    public static Logger getLogger(Class<?> clazz) {
+    public static Logger getLogger(Class<?> clazz)
+    {
         return LogManager.getLogger(clazz);
     }
 }
